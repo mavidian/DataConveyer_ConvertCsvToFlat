@@ -10,8 +10,9 @@ The input file is expected to contain aircraft data along with IATA and ICAO cod
 "Boeing 747","747",\N
 ```
 
-The entire planes.dat file (200+ lines, 8+KB) was obtained from https://github.com/jpatokal/openflights/blob/master/data/planes.dat.
-The file is licensed under Open Database License (https://github.com/jpatokal/openflights/blob/master/data/LICENSE).
+There is a sample input file (200+ lines, 8+KB) included in ...Data folder. The file is a copy of
+[planes.dat](https://github.com/jpatokal/openflights/blob/master/data/planes.dat) file, which is
+licensed under [Open Database License](https://github.com/jpatokal/openflights/blob/master/data/LICENSE).
 
 Upon execution, the resulting output file will contan translations from the IATA code into the aircraft names (ICAO codes get discarded).
 Like so:
@@ -45,7 +46,7 @@ Like so:
 
 6. To exit application, hit Enter key into the console window.
 
-## Contributing
+## Contributing  
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
